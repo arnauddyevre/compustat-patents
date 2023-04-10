@@ -2,7 +2,8 @@
 
 ___
 
-This repository contains two datasets mapping publicly listed firms from Compustat to patents from the U.S. Patents and Trademark Office, from 1950 to 2020. Anyone is very welcome to use the data, provided that appropriate credit is given by citing *[Dyèvre, A.]([url](http://arnauddyevre.com)) & Seager, O. **Matching Patents to Publicly Listed Firms in the US: 1950-2020**, working paper*.
+This repository contains two datasets mapping publicly listed firms from Compustat to patents from the U.S. Patents and Trademark Office, from 1950 to 2020. 
+Anyone is very welcome to use the data, provided that appropriate credit is given by citing *[Dyèvre, A.]([url](http://arnauddyevre.com)) & Seager, O. **Matching Patents to Publicly Listed Firms in the US: 1950-2020**, working paper*.
 
 ### Structure
 
@@ -14,8 +15,8 @@ The repository is organised as follows:
 
 ### Log
 
-First created: April 10th, 2023
-Last modified: April 10th, 2023
+- First created: April 10th, 2023
+- Last modified: April 10th, 2023
 
 ### Licence and attribution
 
