@@ -7,10 +7,10 @@ This repository contains two datasets mapping publicly listed firms from Compust
 ### Structure
 
 The repository is organised as follows:
-- `code`: contains the Stata code used to generate the final panels of firms matched to patents. The code takes as inputs datasets described in [orig] and saves outputs in [data]
-- [data]: contains two datsets, in .csv format. "static.csv" and "dynamic.csv" (need to describe them more)
-- [orig]: contains *descriptions* of the raw datasets used by scripts in [code] to create the final datasets in [data]. These datasets are either very large (like most of the patent datasets) or proprietary (Compustat annual) so we only provide descriptions of the data and directions on how to get them.
-- [doc]: contains the working paper describing how the data in [data] is constructed, as well as a readme file giving more information about the code 
+- `code`: contains the Stata code used to generate the final panels of firms matched to patents. The code takes as inputs datasets described in `orig` and saves outputs in `data`
+- `data`: contains two datsets, in .csv format. "static.csv" and "dynamic.csv" (need to describe them more)
+- `orig`: contains *descriptions* of the raw datasets used by scripts in `code` to create the final datasets in `data`. These datasets are either very large (like most of the patent datasets) or proprietary (Compustat annual) so we only provide descriptions of the data and directions on how to get them.
+- `doc`: contains the working paper describing how the data in `data` is constructed, as well as a readme file giving more information about the code 
 
 ### Log
 
