@@ -9,9 +9,9 @@ Anyone is very welcome to use the data, provided that appropriate credit is give
 
 The repository is organised as follows:
 - `code`: contains the Stata and Python code used to generate the final panels of firms matched to patents. The code takes as inputs datasets described in `orig` and saves outputs in `data`
-- `data`: contains two datsets, in .csv format. "static.csv" and "dynamic.csv" (need to describe them more)
+- `data`: contains two datsets, in .csv format. "static.csv" and "dynamic.csv". "static.csv" contains a static match of patents to Compustat gvkeys according to year of patent application. "dynamic.csv" contains a list of reassignment events, according to which patents should be reassigned from one gvkey to another.
 - `orig`: contains *descriptions* of the raw datasets used by scripts in `code` to create the final datasets in `data`. These datasets are either very large (like most of the patent datasets) or proprietary (Compustat annual) so we only provide descriptions of the data and directions on how to get them.
-- `doc`: contains the working paper describing how the data in `data` is constructed, as well as a readme file giving more information about the code 
+- `doc`: contains the working paper describing how the data in `data` is constructed, as well as a readme file giving more information about the code.
 
 ### Log
 
