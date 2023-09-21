@@ -6,7 +6,7 @@ This subdirectory contains nine small manually constructed datasets used in the 
 
 This README also provides instructions on how to obtain the several external datasets used to construct our data, and describes our manually constructed datasets.
 
-### Instructions to Obtain Data from External Sources (INSTRUCTIONS INCOMPLETE)
+### Instructions to Obtain Data from External Sources
 
 Below are listed datasets that are either very large (e.g. USPTO Patentsview) or proprietary (e.g. Compustat). Each is required for a full running of the code we use to construct our final data.
 
@@ -59,7 +59,7 @@ The below seven datasets are produced as a result of manually reviewing the outp
 #### Accounting-side Manually Constructed Data
 
 On the accounting (Compustat) side, we provide two datasets documenting "effective acquisitions" - events that necessitate the transferral of patent ownership in Compustat. These are...
-- *effectiveAcq_listedPrivate.csv*, which contains instances of listed (Compustat) firms effectively acquiring privately-held firms. Constructed through extensive general research into major M&A events across our sample period, as well as systematic reference to the M&A activity documented by Lev and Mandelker (1972). Observations consist of the acquiror gvkey, acquiree firm name, and year of effective acquisition. 
+- *effectiveAcq_listedPrivate.csv*, which contains instances of listed (Compustat) firms effectively acquiring privately-held firms. Constructed through extensive general research into major M&A events across our sample period, as well as systematic reference to the M&A activity documented by Lev and Mandelker (1972). Observations consist of the acquiror gvkey, acquiree firm name, and year of effective acquisition.
     - These data are used in script *018b*.
-- *effectiveAcq_listedListed.csv*, which contains instances of listed (Compustat) firms effectively acquiring other listed (Compustat) firms. Constructed through extensive general research, M&A activity documented by Lev and Mandelker (1972), manually reviewed outputs of scripts *019b* and *019c*, and manually reviewed instances in which a clean name maps to multiple gvkeys. Observations consist of the acquiror gvkey, acquiree gvkey, and year of effective acquisition. 
+- *effectiveAcq_listedListed_final.csv*, which contains instances of listed (Compustat) firms effectively acquiring other listed (Compustat) firms. Constructed through extensive general research, M&A activity documented by Lev and Mandelker (1972), 6-character CUSIP matching between *gvkeys* in Compustat, M&A activity from SDC Platinum, implied M&A activity from crosswalks between *gvkeys* and other firm identifiers, SEC 10-K subsidiary data from WRDS, manually reviewed outputs of scripts *019b* and *019c*, and manually reviewed instances in which a clean name maps to multiple gvkeys. Observations consist of the acquiror gvkey, acquiree gvkey, year of effective acquisition, and nature of effective acquisition. 
     - These data are used in script *019d*.

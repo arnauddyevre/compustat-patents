@@ -39,6 +39,11 @@ None
 import delimited "$orig/Ollie's M&A File/effectiveAcq_listedPrivate.csv", clear varnames(1) stringcols(1)
 
 
+* Drop Type Variable, Not Currently in Use *
+
+drop type // This gives the transaction type, but we decided not to go ahead with it
+
+
 * Rename, Label Variables *
 
 rename gvkey_primary gvkey 

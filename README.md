@@ -16,7 +16,7 @@ The repository is organised as follows:
 ### Log
 
 - First created: April 10th, 2023
-- Last modified: June 23rd, 2023
+- Last modified: September 21st, 2023
 
 ### Licence and attribution
 

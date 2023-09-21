@@ -6,12 +6,12 @@ SE 17
 
 
 Created: 26/06/2023
-Last Modified: 27/06/2023
+Last Modified: 21/09/2023
 
 
 This script processes everything on the accounting-side of the data (i.e. Compustat) that is needed for the patent-firm match.
 
-As of the 26th of June 2023, it takes approximately 15 minutes to run in Stata 17 on a computer with 16GB of RAM running an Intel Core i7-1165G7 processor (with 4 CPUs into 8 logical processors and an Intel Iris Xe GPU).
+As of the 21st of September 2023, it takes approximately 15 minutes to run in Stata 17 on a computer with 16GB of RAM running an Intel Core i7-1165G7 processor (with 4 CPUs into 8 logical processors and an Intel Iris Xe GPU).
 
 This script is broken down into the following sections:
 019a. CRSP/Compustat Dynamic Names - this script obtains all names associated with a gvkey; both the 2020 or time-of-exit name given in Compustat, and previous trading names as listed in the CRSP Daily Stock File.
@@ -19,8 +19,9 @@ This script is broken down into the following sections:
 019c. SDC Platinum M&A - this script identifies M&A activity pertinent to our data from SDC Platinum's vast database on M&A activity.
 019d. Mapping gvkeys to Ultimate Owner gvkeys - This script uses the data collected on ownership to map gvkeys to their *ultimate owner* gvkeys.
 019e. Intermediary Housekeeping - This script attaches application/grant dates to the homogenised patent data, runs dynamic names through our name-cleaning algorithm, and gets a dataset of clean names that feature in both patent and accounting data.
-019f. Mapping Public Firm Names to Ultimate Owner gvkeys - This script maps the names associated with each gvkey to their ultimate owner gvkeys.
-019g. Mapping Private Firm Names to Ultimate Owner gvkeys - This script maps the names associated with privately held subsidiaries to their ultimate owner gvkeys.
+019f. Mapping Private Firm Names to Ultimate Owner gvkeys - This script maps the names associated with privately held subsidiaries to their ultimate owner gvkeys.
+019g. Mapping Public Firm Names to Ultimate Owner gvkeys - This script maps the names associated with each gvkey to their ultimate owner gvkeys.
+019h. Collating Mappings of Names to Ultimte Owner gvkeys - This script simply collates all names (of publicly-listed firms and privately held subsidiaries) to their ultimate owner gvkeys
 
 
 Infiles:
@@ -46,9 +47,15 @@ Infiles:
 	- 014_FGLMY2675appYears.dta (USPTO patents from 1926-1975 with their application dates, as inferred from the Fleming, Greene, Li, Marx and Yao (2019) OCR.)
 	- 017f_patents_homogenised.dta (Observations are patents along with their associated original name, associated clean name, data source indicator, and indicators for the methods used to alter the associated clean name.)
 
-[019g]
+[019f]
 	- 018d_collatedSubsidiaries.dta (All subsidiaries sourced from ABS 2021, general research, LM 1972, and 10-Ks, with their clean names. At the gvkey-clean_name-ownership_period level)
 	- 017f_patents_homogenised.dta (Observations are patents along with their associated original name, associated clean name, data source indicator, and indicators for the methods used to alter the associated clean name.)
+	
+[019g]
+	- 017f_patents_homogenised.dta (Observations are patents along with their associated original name, associated clean name, data source indicator, and indicators for the methods used to alter the associated clean name.)
+	
+[019h]
+No external inputs
 
 
 Outfiles:
@@ -82,14 +89,19 @@ Outfiles:
 	- 019e_dynamicNamesClean_matched.dta (A dynamic mapping of clean names [that also feature in our patent dataset] to gvkeys)
 
 [019f]
-	- 019f_cstatPresenceByUltimateOwner.dta (Inclusive *only* of gvkeys associated with clean names that also feature in our patent data, gvkey in Compustat with their first and last years present in the dataset by ultimate owner gvkeys)
-	- 019f_whoOwnsWhomAndWhen_nameUOs.dta.dta (A mapping of clean names to ultimate parent gvkeys, with the original names that produced them and the gvkeys they are mapped through, at the clean_name-gvkey level)
-	- 019f_whoOwnsWhomAndWhen_ReassignmentFriendly.dta (A mapping of clean names to ultimate parent gvkeys, but with a "for reassignment" gvkey that allows the transfer of ownership of patents away from the ultimate owner)
+	- 019f_subsidiariesCut.dta (A reduced list of subsidiaries created from 018d_collatedSubsidiaries.dta)
+	- 019f_subsidiariesCleanedAndCutAgain.dta (A further reduced list of subsidiaries created from 018d_collatedSubsidiaries.dta, with links to immediate-owner gvkeys cleaned)
+	- 019f_whoOwnsWhomAndWhen_privateSubs.dta (A mapping of clean names from private subsidiaries to ultimate parent gvkeys, with a "for reassignment" gvkey that allows the transfer of ownership of patents away from the ultimate owner)
 
 [019g]
-	- 019g_subsidiariesCut.dta (A reduced list of subsidiaries created from 018d_collatedSubsidiaries.dta)
-	- 019g_subsidiariesCleanedAndCutAgain.dta (A further reduced list of subsidiaries created from 018d_collatedSubsidiaries.dta, with links to immediate-owner gvkeys cleaned)
-	- 019g_whoOwnsWhomAndWhen_privateSubs.dta (A mapping of clean names from private subsidiaries to ultimate parent gvkeys, with a "for reassignment" gvkey that allows the transfer of ownership of patents away from the ultimate owner)
+	- 019g_dynamicNamesCleanManualAdd_matched.dta (A dynamic mapping of names, as cleaned by the Dyèvre-Seager algorithm, to gvkeys, augmented with high-patent firms erroneously unmatched to publicly-listed firms by the automated procedure)
+	- 019g_cstatPresenceByUltimateOwner.dta (Inclusive *only* of gvkeys associated with clean names that also feature in our patent data, gvkey in Compustat with their first and last years present in the dataset by ultimate owner gvkeys)
+	- 019g_whoOwnsWhomAndWhen_nameUOs.dta.dta (A mapping of clean names to ultimate parent gvkeys, with the original names that produced them and the gvkeys they are mapped through, at the clean_name-gvkey level)
+	- 019g_whoOwnsWhomAndWhen_ReassignmentFriendly.dta (A mapping of clean names to ultimate parent gvkeys, but with a "for reassignment" gvkey that allows the transfer of ownership of patents away from the ultimate owner)
+	
+[019h]
+	- 019h_whoOwnsWhomAndWhen_ReassignmentFriendlyCollated.dta (A mapping of clean names to ultimate parent gvkeys covering both public and private subsidiaries as well as self-owning public firms, with a "for reassignment" gvkey that allows the transfer of ownership of patents away from the ultimate owner)
+	- 019h_whoOwnsWhomAndWhen_ReassignmentFriendlyCollatedSkinny.dta (A mapping of clean names to ultimate parent gvkeys covering both public and private subsidiaries as well as self-owning public firms, with a "for reassignment" gvkey that allows the transfer of ownership of patents away from the ultimate owner, with original names truncated and without link years between original names and intermediary gvkeys)
 
 
 Called .do Files:
@@ -101,12 +113,13 @@ Called .do Files:
 - 019d_whoOwnsWhom_gvkeys.do (The script that maps subsidiary gvkeys to their ultimate owner gvkeys)
 - 019e_patentsDatesGvkeys.do (An intermediary housekeeping script, adding information to various existing datasets)
 	- 500_nameCleaning.do (The centralised name cleaning algorithm)
-- 019f_whoOwnsWhom_names.do (The script that maps names associated with public firms to their ultimate owner gvkeys)
-- 019g_whoOwnsWhom_subsidiaries.do (The script that maps names associated with private firms to their ultimate owner gvkeys)
+- 019f_whoOwnsWhom_subsidiaries.do (The script that maps names associated with private firms to their ultimate owner gvkeys)
+- 019g_whoOwnsWhom_names.do (The script that maps names associated with public firms to their ultimate owner gvkeys)
+- 019h_nameCollation.do (The script that collates all names (of publicly-listed firms and privately held subsidiaries) to their ultimate owner gvkeys)
 
 
 External Packages:
-- unique by Tony Brady [used in 019b, 019c, 019g]
+- unique by Tony Brady [used in 019b, 019c, 019f]
 
 */
 
@@ -186,14 +199,19 @@ do "$code/019d_whoOwnsWhom_gvkeys.do"
 do "$code/019e_patentsDatesGvkeys.do"
 
 
-* 019f - Map Names of Listed Firms to Ultimate Owner gvkeys *
+* 019f - Map Names of Private Firms to Ultimate Owner gvkeys *
 
-do "$code/019f_whoOwnsWhom_names.do"
+do "$code/019f_whoOwnsWhom_subsidiaries.do"
 
 
-* 019g - Map Names of Private Firms to Ultimate Owner gvkeys *
+* 019g - Map Names of Listed Firms to Ultimate Owner gvkeys *
 
-do "$code/019g_whoOwnsWhom_subsidiaries.do"
+do "$code/019g_whoOwnsWhom_names.do"
+
+
+* 019h - Collate Name Ownership for Subsidiaries and Listed Firms *
+
+do "$code/019h_nameCollation.do"
 
 
 

@@ -60,12 +60,14 @@ Called by *019_compustatSide.do* are...
 - *019d_whoOwnsWhom_gvkeys.do* - maps subsidiary gvkeys to their ultimate owner gvkeys.
 - *019e_patentsDatesGvkeys.do* - adds information to various intermediary datasets.
     - This script calls the Tier 4 .do file *500_nameCleaning.do*
-- *019f_whoOwnsWhom_names.do* - maps names associated with public firms to their ultimate owner gvkeys.
-- *019g_whoOwnsWhom_subsidiaries.do* - maps names associated with private firms to their ultimate owner gvkeys.
+- *019f_whoOwnsWhom_subsidiaries.do* - maps names associated with private firms to their ultimate owner gvkeys
+- *019g_whoOwnsWhom_names.do* - maps names associated with public firms to their ultimate owner gvkeys
+- *019h_nameCollation.do* - collates all names (of publicly-listed firms and privately held subsidiaries) to their ultimate owner gvkeys
 
 Called by *020_staticDynamicMatch.do* are...
-- *020a_staticMatch.do* - produces the static match between patents and gvkeys for the 1950-2020 period.
-- *020b_dynamicReassignment.do* - produces the data which facilitates the dynamic reassignment of patents.
+- *020a_staticMatch.do* - produces the initial static match between patents and gvkeys for the 1950-2020 period.
+- *020b_dynamicReassignment.do* - produces the initial data which facilitates the dynamic reassignment of patents.
+- *020c_researcherFriendlyDataProduction.do* - builds on datasets produced in *020a_staticMatch.do* and *020b_dynamicReassignment.do* to produce researcher-friendly data
 
 #### Tier 4 *.do* File
 

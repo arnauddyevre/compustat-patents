@@ -10,35 +10,32 @@ This dataset contains 8,315,311 patents granted by the United States Patent and 
 
 #### Use of *gvkey* and *gvkey*-like Firm Identifiers
 
-In *static.csv*, each patent is associated with two firm identifiers (possibly identical in value)...
-- **gvkey_uo**, or "ultimate owner gvkey", is the sole firm identifier required where a researcher only studies firm-level innovation as it occurs. It identifies the ultimate owner of the applicant firm at the time of application. *gvkey_uo* maps directly into Compustat.
+In *static.csv*, each patent is associated with one or two firm identifiers (possibly identical in value)...
+- **gvkeyUO**, or "ultimate owner gvkey", is the sole firm identifier required where a researcher only studies firm-level innovation as it occurs. It identifies the ultimate owner of the applicant firm at the time of application. *gvkeyUO* maps directly into Compustat. If the ultimate owner of the patent is not active in Compustat at the time of application, the *gvkeyUO* is missing.
 - **gvkeyFR**, or "gvkey for reassignment", is the additional firm identifier required where a researcher studies a firm's stock of intellectual property at a given time, or over time. It is a *gvkey*-like firm identifier; each gvkeyFR can be mapped to the appropriate ("ultimate owner") gvkey in Compustat in a given year using the dataset *dynamic.csv*.
 
 #### Dataset Variables for *static.csv*
 
 - **patent_id** - USPTO patent number.
-- **grantYear** - The year the patent was granted by the USPTO.
 - **appYear** - The year the patent application was submitted to the USPTO.
-- **clean_name** - The (cleaned) firm name associated with the patent's immediate assignee.
-- **gvkey_uo** - "ultimate owner gvkey": the Compustat *gvkey* of the ultimate owner (at time of application) of the firm that is the patent's immediate assignee.
+- **gvkeyUO** - "ultimate owner gvkey": the Compustat *gvkey* of the ultimate owner (at time of application) of the firm that is the patent's immediate assignee.
 - **gvkeyFR** - "gvkey for reassignment": the *gvkey*-like identifier of the firm that is the patent's immediate assignee.
-- **patentIsOwned** - Indicator that the patent is matched to a *gvkey_uo* (not necessarily one active in Compustat) at the time of application.
+- **clean_name** - The (cleaned) firm name associated with the patent's immediate assignee.
+- **cnLink_y1** - The first year for which we map the given *clean_name* to the given *gvkeyFR* and (where applicable) given *gvkeyUO*.
+- **cnLink_yN** - The last year for which we map the given *clean_name* to the given *gvkeyFR* and (where applicable) given *gvkeyUO*.
+- **privateSubsidiary** - Indicator that the patent is matched to a *gvkeyFR* via a privately-held subsidiary.
+- **grantYear** - The year the patent was granted by the USPTO.
 
 ### *dynamic.csv*
 
-This dataset contains (final figure TBD) events that trigger reassignment from one *gvkey_uo* to another. The data is at the *gvkey_uo*--*gvkeyFR*--*year* level, or the "effective acquisition" level. An observation indicates that patents immediately assigned to *gvkeyFR* in *static.csv* should be re-assigned to *gvkey_uo* from *year* onward, either indefinitely or until the *year* of a subsequent observation associated with *gvkeyFR*.
+This dataset contains mappings from *gvkeyFR* to *gvkey*, capturing firm ownership (and therefore patent ownership). This allows researchers to determine the ultimate owner of a patent at any given point in time. We construct this from our data on "effective acquistions" of one *gvkey* by another (more below).
 
 #### Dataset Variables for *dynamic.csv*
 
-- **gvkeyFR** - The "gvkey for reassignment"; a *gvkey*-like firm identifier of the firm ultimately owned by *gvkey_uo* from *year* onward.
-- **gvkey_uo** - The "ultimate owner gvkey" whose ownership of the gvkey-like identifier *gvkeyFR* is effective from *year* onward.
-- **year** - The year in which *gvkey_uo*'s ownership of *gvkeyFR* commences.
-- **gvkey_primary** - The gvkey of the "effectively acquiring" firm in the transaction that triggers the reassignment. 
-    - For most research purposes, this variable should be used for reference only.
-- **gvkey_secondary** - The gvkey or gvkeyFR of the "effectively acquired" firm in the transaction that triggers the reassignment.
-    - For most research purposes, this variable should be used for reference only.
-- **source** - The data source that documents the effective acquisition which triggers the reassignment.
-- **type** - The type of M&A activity or corporate restructuring the effective acquisition constitutes. 
+- **gvkeyFR** - The "gvkey for reassignment"; a *gvkey*-like firm identifier of the firm ultimately owned by *gvkey* from *year1* to *yearN*.
+- **gvkey** - The "ultimate owner gvkey" whose ownership of the gvkey-like identifier *gvkeyFR* is effective from *year1* to *yearN*.
+- **year1** - The first year for which patents attributed to *gvkeyFR* are ultimately owned by *gvkey*. 
+- **yearN** - The first year for which patents attributed to *gvkeyFR* are ultimately owned by *gvkey*.
 
 #### "Effective Acquisitions"
 
@@ -55,4 +52,4 @@ For the above, an "effective acquisition" can refer to one of many instances of 
     - We permanently associate the name "JULIET" with gvkeyFR "000009"
     - We permanently associate the name "HOTEL" with gvkeyFR "000009A"
     - In the year that HOTEL lists under gvkey 000009, we say that gvkey_uo 000009 "effectively acquires" gvkeyFR "000009A".
-    - In the year that the reverse spin-off takes place, we say that gvkey_uo 000010 "effectively acquires" gvkeyFR "000009A".  
+    - In the year that the reverse spin-off takes place, we say that gvkey_uo 000010 "effectively acquires" gvkeyFR "000009A".

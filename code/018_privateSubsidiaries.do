@@ -31,6 +31,9 @@ Infiles:
 
 [018c]
 	- wrds_sec9319.dta (Subsidiaries listed in various Securities and Exchange Commission (SEC) filings as compiled by Wharton Research Data Services (WRDS) for the period 1993-2019. Dataset originally built on top of the Corpwatch API.)
+	
+[018d]
+No external inputs
 
 
 Outfiles:

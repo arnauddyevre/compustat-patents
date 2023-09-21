@@ -1,259 +1,966 @@
-﻿gvkey_primary,name_secondary,year,source
-005134,FORDYCE LUMBER,1963,Lev and Mandelker (1972)
-005134,PUGET SOUND PULP AND TIMBER,1963,Lev and Mandelker (1972)
-005134,VANITY FAIR PAPER MILLS,1963,Lev and Mandelker (1972)
-001365,CLIMAX MOLYBDENUM,1957,Lev and Mandelker (1972)
-002892,CONSOLIDATED COPPER MINES,1959,Lev and Mandelker (1972)
-002892,TITAN METAL MANUFACTURING,1959,Lev and Mandelker (1972)
-002892,LEWIN-MATHES,1959,Lev and Mandelker (1972)
-004189,MIDLAND ENTERPRISES,1961,Lev and Mandelker (1972)
-004189,OHIO RIVER,1961,Lev and Mandelker (1972)
-002102,PRICES CREAMERIES,1953,Lev and Mandelker (1972)
-001394,MERITA BAKERIES,1953,Lev and Mandelker (1972)
-001620,GODCHAUX SUGAR,1956,Lev and Mandelker (1972)
-007724,BRIDGEPORT BRASS,1961,Lev and Mandelker (1972)
-003144,MINUTE MAID,1960,Lev and Mandelker (1972)
-003411,MURIEL CIGARS,1956,Lev and Mandelker (1972)
-002489,JAMES LEES AND SONS,1960,Lev and Mandelker (1972)
-007495,FIRTH CARPET,1962,Lev and Mandelker (1972)
-003627,BARTRAM PAPER PRODUCTS,1955,Lev and Mandelker (1972)
-003627,GAYLORD CONTAINER,1955,Lev and Mandelker (1972)
-014593,GAYLORD CONTAINER,1987,General Research
-003627,ELK FALLS,1955,Lev and Mandelker (1972)
-011446,HINDE AND DAUCH PAPER,1953,Lev and Mandelker (1972)
-005644,HINDE AND DAUCH PAPER,1956,General Research
-001215,PITTSBURGH METALLURGICAL,1962,Lev and Mandelker (1972)
-005250,DAVISON CHEMICAL,1954,Lev and Mandelker (1972)
-005250,DEWEY AND ALMY CHEMICAL,1954,Lev and Mandelker (1972)
-007536,LION OIL,1955,Lev and Mandelker (1972)
-007658,MORRIS P KIRK AND SONS,1953,Lev and Mandelker (1972)
-007658,DOEHLER-JARVIS,1953,Lev and Mandelker (1972)
-007257,SHARPE AND DOHME,1953,Lev and Mandelker (1972)
-011288,AMERICAN CHICLE,1962,Lev and Mandelker (1972)
-001609,PAN AMERICAN PETROLEUM AND TRANSPORT,1954,Lev and Mandelker (1972)
-010001,OLD BEN COAL,1968,General Research
-004672,DAYTON TIRE,1961,Lev and Mandelker (1972)
-002436,G R KINNEY,1956,Lev and Mandelker (1972)
-001414,MARATHON,1957,Lev and Mandelker (1972)
-003460,HAZEL-ATLAS GLASS,1956,Lev and Mandelker (1972)
-003460,ROBERT GAIR,1957,General Research
-008215,NATIONAL CONTAINER,1956,Lev and Mandelker (1972)
-001755,NATIONAL SUPPLY,1957,Lev and Mandelker (1972)
-003512,FLEXO WIRE,1951,General Research
-003512,OHIO SEAMLESS TUBING,1957,Lev and Mandelker (1972)
-002789,AFFILIATED GAS EQUIPMENT,1955,Lev and Mandelker (1972)
-002789,BRYANT HEATER,1955,Lev and Mandelker (1972)
-002789,DAY AND NIGHT WATER HEATER,1955,Lev and Mandelker (1972)
-002789,PAYNE FURNACE AND SUPPLY,1955,Lev and Mandelker (1972)
-004327,SAVAGE ARMS,1963,Lev and Mandelker (1972)
-005492,INTERTYPE,1957,Lev and Mandelker (1972)
-007648,COMPUTER RESEARCH,1953,General Research
-003334,COMPUTER RESEARCH,1973,General Research
-009316,MARCHANT CALCULATING MACHINE,1958,Lev and Mandelker (1972)
-009316,BRITISH TYPEWRITERS,1958,Lev and Mandelker (1972)
-009036,MASTER ELECTRIC,1957,Lev and Mandelker (1972)
-009036,TOLEDO SCALE,1967,General Research
-009036,DODGE MANUFACTURING,1967,General Research
-010519,HOMELITE,1955,Lev and Mandelker (1972)
-007585,LEARCAL,1959,Lev and Mandelker (1972)
-007585,DAHLBERG,1959,Lev and Mandelker (1972)
-003712,DAHLBERG,1984,Lev and Mandelker (1972)
-001517,HUDSON MOTOR CAR,1954,Lev and Mandelker (1972)
-007967,STERLING TRUCKS,1951,General Research
-007967,AUTOCAR,1953,Lev and Mandelker (1972)
-007967,REO MOTOR CAR,1957,General Research
-007967,DIAMOND T,1958,General Research
-004154,RAY-O-VAC,1957,Lev and Mandelker (1972)
-004600,BEARINGS COMPANY OF AMERICA,1953,General Research
-004600,BOWER ROLLER BEARING,1955,Lev and Mandelker (1972)
-005046,LIQUID CARBONIC,1957,Lev and Mandelker (1972)
-007373,INDUSTRIAL RAYON,1961,Lev and Mandelker (1972)
-001803,GOLDWATERS,1953,Lev and Mandelker (1972)
-005109,JOHNSTON AND MURPHY,1951,General Research
-002367,MID-CONTINENT AIRLINES,1952,General Research
-001683,KANOTEX REFINING,1953,General Research
-002102,D L CLARK,1955,General Research
-005046,STROMBERG-CARLSON,1955,General Research
-005382,WARREN PETROLEUM,1953,General Research
-007162,THOMAS A EDISON,1957,General Research
-009126,MILTON ANTISEPTIC,1958,General Research
-006266,CILAG,1959,General Research
-006266,MCNEIL LABORATORIES,1959,General Research
-011038,PURE OIL,1965,General Research
-010156,SUNRAY DX OIL,1968,General Research
-007077,AMERICAN MARIETTA,1961,General Research
-010120,STUDEBAKER,1967,General Research
-007739,ALLENTOWN PORTLAND CEMENT,1960,General Research
-010519,BELL TEXTRON,1960,General Research
-010519,BELL AEROSPACE,1960,General Research
-003015,CHRIS-CRAFT BOATS,1960,General Research
-002255,DEWALT,1960,General Research
-002255,DEWALT INDUSTRIAL TOOL,1960,General Research
-009203,PORTER-CABLE,1960,General Research
-008463,PORTER-CABLE,1981,General Research
-008463,DELTA MACHINERY,1981,General Research
-008479,FRITO,1965,General Research
-008479,H W LAY,1965,General Research
-008479,FRITO-LAY,1965,General Research
-006266,JANSSEN PHARMACEUTICALS,1961,General Research
-006628,LEAR AVIONICS,1961,General Research
-002663,PEPPERIDGE FARM,1961,General Research
-008762,FOLGERS,1963,General Research
-004073,MANNING MAXWELL AND MOORE,1964,General Research
-009225,ORKIN,1964,General Research
-005959,PROTO TOOLS,1964,General Research
-010016,PROTO TOOLS,1984,General Research
-010016,STANLEY PROTO INDUSTRIAL TOOLS,1984,General Research
-003024,READ AND CAMPBELL,1964,General Research
-003024,CHUBB FIRE SECURITY,1971,General Research
-008488,BOLLER AND CHIVENS,1965,General Research
-010519,BOSTITCH,1966,General Research
-010016,BOSTITCH,1986,General Research
-010016,STANLEY BOSTITCH,1986,General Research
-005693,COMPUTER CONTROL,1966,General Research
-005378,NEW JERSEY ZINC,1966,General Research
-004940,SAWYERS,1966,General Research
-005071,KENNER PRODUCTS,1967,General Research
-005071,PARKER BROTHERS,1968,General Research
-011806,KENNER PRODUCTS,1982,General Research
-011806,PARKER BROTHERS,1982,General Research
-001478,LUCKS,1967,General Research
-002403,MEAD JOHNSON,1967,General Research
-009203,ROCKETDYNE,1967,General Research
-010405,WAH CHANG,1967,General Research
-009165,HILLS PET NUTRITION,1968,General Research
-007413,PLAYSKOOL,1968,General Research
-002812,STANDARD FRUIT,1968,General Research
-002812,STANDARD FRUIT AND STEAMSHIP,1968,General Research
-003091,MELROE MANUFACTURING,1969,General Research
-011636,DIABLO SYSTEMS,1972,General Research
-011636,DIABLO DATA SYSTEMS,1972,General Research
-002176,SEES CANDIES,1972,General Research
-009653,BELRIDGE OIL,1979,General Research
-010787,GRINNELL MECHANICAL PRODUCTS,1976,General Research
-008499,MICRO INSTRUMENTATION AND TELEMETRY SYSTEMS,1977,General Research
-011636,SHURGART ASSOCIATES,1977,General Research
-003748,DURACELL,1978,General Research
-005535,IMLAC CORPORATION,1979,General Research
-008889,BANQUET FOODS,1970,General Research
-003362,BANQUET FOODS,1980,General Research
-007435,COMTAL CORP,1980,General Research
-008253,FODEN TRUCKS,1980,General Research
-009104,INSTITUT JEANNE GATINEAU,1980,General Research
-002950,LOVE COSMETICS,1980,General Research
-010016,MAC TOOLS,1980,General Research
-002082,NYTRONICS INC,1980,General Research
-006856,OHIO SCIENTIFIC,1980,General Research
-003243,DINERS CLUB INTERNATIONAL,1981,General Research
-177376,DINERS CLUB INTERNATIONAL,2008,General Research
-017828,FREIGHTLINER INTERNATIONAL,1981,General Research
-010984,ISACOMM,1981,General Research
-005946,PROFESSIONAL SOFTWARE SYSTEMS INC,1981,General Research
-004321,WESTERN FORGE,1981,General Research
-000000,WESTERN FORGE,2007,General Research
-004132,COLORGRAPHICS WEATHER SYSTEMS,1982,General Research
-000000,COLORGRAPHICS WEATHER SYSTEMS,1994,General Research
-004132,CROMEMCO,1987,General Research
-006512,CYBERNET,1982,General Research
-009818,MUSIC CENTER INC,1982,General Research
-008150,BUFFALO CHINA,1983,General Research
-013371,GNAT COMPUTERS,1983,General Research
-005480,INFINITY SYSTEMS,1983,General Research
-006512,YASHICA,1983,General Research
-007146,SCHWARTZ,1984,General Research
-014620,ZANUSSI,1984,General Research
-010609,CELLAS,1985,General Research
-007875,AMERICAN TOOL COMPANIES,2002,General Research
-007875,IRWIN INDUSTRIAL TOOLS,2002,General Research
-007875,IRWIN TOOLS,2002,General Research
-010016,AMERICAN TOOL COMPANIES,2016,General Research
-010016,IRWIN INDUSTRIAL TOOLS,2016,General Research
-010016,IRWIN TOOLS,2016,General Research
-001908,LYCOMING ENGINES,1929,General Research
-010422,MICROOFFICE SYSTEMS TECHNOLOGY,1985,General Research
-003543,ONYX SYSTEMS,1985,General Research
-008762,PANTENE,1985,General Research
-024463,SHASTA,1985,General Research
-024463,SHASTA BEVERAGES,1985,General Research
-006502,TURKEY HILL,1985,General Research
-000000,TURKEY HILL,2019,General Research
-011620,AMDEK CORPORATION,1986,General Research
-006765,NEW BRITAIN MACHINE COMPANY,1972,General Research
-006765,BLACKHAWK TOOLS,1972,General Research
-010016,BLACKHAWK TOOLS,1986,General Research
-028701,EVERREADY BATTERY COMPANY,1986,General Research
-133367,EVERREADY BATTERY COMPANY,1998,General Research
-005073,FRIGIDAIRE APPLIANCE COMPANY,1919,General Research
-011466,FRIGIDAIRE APPLIANCE COMPANY,1979,General Research
-006948,GLEN GLENN SOUND,1986,General Research
-010519,GREENLEE,1986,General Research
-010519,FAIRMONT HYDRAULICS,1992,General Research
-010519,KLAUKE,1996,General Research
-010519,PALADIN TOOLS,2007,General Research
-010519,UTILUX,2008,General Research
-010519,SHERMAN REILLY,2013,General Research
-010519,HD ELECTRIC,2013,General Research
-004321,GREENLEE,2018,General Research
-004321,FAIRMONT HYDRAULICS,2018,General Research
-004321,KLAUKE,2018,General Research
-004321,PALADIN TOOLS,2018,General Research
-004321,UTILUX,2018,General Research
-004321,SHERMAN REILLY,2018,General Research
-004321,HD ELECTRIC,2018,General Research
-002272,JANSPORT,1967,General Research
-011465,KITCHENAID,1986,General Research
-006266,LIFESCAN,1986,General Research
-000000,LIFESCAN,2018,General Research
-011511,POTTERY BARN,1986,General Research
-003735,QUALITROL,1986,General Research
-026590,QUALITROL,2016,General Research
-011466,WHITE-WESTINGHOUSE,1975,General Research
-007875,AMEROCK,1987,General Research
-160225,CIRRUS SYSTEMS LLC,1987,General Research
-100609,GENERAL TIRE,1987,General Research
-007906,COLE HAAN,1988,General Research
-000000,COLE HAAN,2012,General Research
-036202,COLE HAAN,2017,General Research
-004021,DOME PETROLEUM,1950,General Research
-001609,DOME PETROLEUM,1988,General Research
-003362,LAMB WESTON,1988,General Research
-028790,LAMB WESTON,2012,General Research
-016603,ROWNTREE MACKINTOSH CONFECTIONERY,1988,General Research
-009343,SIEGEL AND GALE,1988,General Research
-000000,SIEGEL AND GALE,1998,General Research
-004066,SIEGEL AND GALE,2003,General Research
-011612,WURLITZER,1990,General Research
-011465,BAUKNECHT,1989,General Research
-011465,BAUKNECHT HAUSGERATE GMBH,1989,General Research
-008762,COVERGIRL,1989,General Research
-012151,COVERGIRL,2016,General Research
-013148,CUISINART,1989,General Research
-008022,COVERGIRL,1962,General Research
-001308,ADVANCE RUMELY CO,1931,General Research
-002973,ANNETTES PERFECT CLEANSER CO,1932,General Research
-009548,MIDWEST GRAIN PRODUCTS OF INDIANA,1933,General Research
-003532,MACBETH EVANS GLASS CO,1936,General Research
-009064,TRUSSED CONCRETE STEEL CO,1937,General Research
-010860,UNION COLLIERY CO,1937,General Research
-004940,ANSCO,1939,General Research
-010846,PEPSODENT,1944,General Research
-011436,BF STURTEVANT,1945,General Research
-009204,DELTA MACHINERY,1945,General Research
-009204,DELTA SPECIALTY,1945,General Research
-010519,NASHUA MANUFACTURING CO,1945,General Research
-010066,FAIRCHILD BROTHERS AND FOSTER,1946,General Research
-007585,DETROLA RADIO AND TELEVISION CO,1948,General Research
-014894,MANNESMANN,1999,General Research
-003226,AT&T BROADBAND,2001,General Research
-014261,THE BEECHMAN GROUP,1989,General Research
-241637,INBEV,2005,General Research
-241637,INTERBREW,2005,General Research
-065248,ARCELOR,2006,General Research
-003226,NBCUNIVERSAL,2009,General Research
-005047,NBCUNIVERSAL,2004,General Research
-034636,NEWS CORP,2013,General Research
-170617,WHATSAPP INC,2014,General Research
-063987,WEATHER INVESTMENTS,2010,General Research
-006266,SYNTHES,2011,General Research
-028877,KEURIG INC,2006,General Research
-241637,GRUPO MODELO,2012,General Research
+﻿gvkey_primary,name_secondary,year,source,type
+005134,FORDYCE LUMBER,1963,Lev and Mandelker (1972),
+005134,PUGET SOUND PULP AND TIMBER,1963,Lev and Mandelker (1972),
+005134,VANITY FAIR PAPER MILLS,1963,Lev and Mandelker (1972),
+001365,CLIMAX MOLYBDENUM,1957,Lev and Mandelker (1972),
+002892,CONSOLIDATED COPPER MINES,1959,Lev and Mandelker (1972),
+002892,TITAN METAL MANUFACTURING,1959,Lev and Mandelker (1972),
+002892,LEWIN-MATHES,1959,Lev and Mandelker (1972),
+004189,MIDLAND ENTERPRISES,1961,Lev and Mandelker (1972),
+004189,OHIO RIVER,1961,Lev and Mandelker (1972),
+002102,PRICES CREAMERIES,1953,Lev and Mandelker (1972),
+001394,MERITA BAKERIES,1953,Lev and Mandelker (1972),
+001620,GODCHAUX SUGAR,1956,Lev and Mandelker (1972),
+007724,BRIDGEPORT BRASS,1961,Lev and Mandelker (1972),
+003144,MINUTE MAID,1960,Lev and Mandelker (1972),
+003411,MURIEL CIGARS,1956,Lev and Mandelker (1972),
+002489,JAMES LEES AND SONS,1960,Lev and Mandelker (1972),
+007495,FIRTH CARPET,1962,Lev and Mandelker (1972),
+003627,BARTRAM PAPER PRODUCTS,1955,Lev and Mandelker (1972),
+003627,GAYLORD CONTAINER,1955,Lev and Mandelker (1972),
+014593,GAYLORD CONTAINER,1987,General Research,
+003627,ELK FALLS,1955,Lev and Mandelker (1972),
+011446,HINDE AND DAUCH PAPER,1953,Lev and Mandelker (1972),
+005644,HINDE AND DAUCH PAPER,1956,General Research,
+001215,PITTSBURGH METALLURGICAL,1962,Lev and Mandelker (1972),
+005250,DAVISON CHEMICAL,1954,Lev and Mandelker (1972),
+005250,DEWEY AND ALMY CHEMICAL,1954,Lev and Mandelker (1972),
+007536,LION OIL,1955,Lev and Mandelker (1972),
+007658,MORRIS P KIRK AND SONS,1953,Lev and Mandelker (1972),
+007658,DOEHLER-JARVIS,1953,Lev and Mandelker (1972),
+007257,SHARPE AND DOHME,1953,Lev and Mandelker (1972),
+011288,AMERICAN CHICLE,1962,Lev and Mandelker (1972),
+001609,PAN AMERICAN PETROLEUM AND TRANSPORT,1954,Lev and Mandelker (1972),
+010001,OLD BEN COAL,1968,General Research,
+004672,DAYTON TIRE,1961,Lev and Mandelker (1972),
+002436,G R KINNEY,1956,Lev and Mandelker (1972),
+001414,MARATHON,1957,Lev and Mandelker (1972),
+003460,HAZEL-ATLAS GLASS,1956,Lev and Mandelker (1972),
+003460,ROBERT GAIR,1957,General Research,
+008215,NATIONAL CONTAINER,1956,Lev and Mandelker (1972),
+001755,NATIONAL SUPPLY,1957,Lev and Mandelker (1972),
+003512,FLEXO WIRE,1951,General Research,
+003512,OHIO SEAMLESS TUBING,1957,Lev and Mandelker (1972),
+002789,AFFILIATED GAS EQUIPMENT,1955,Lev and Mandelker (1972),
+002789,BRYANT HEATER,1955,Lev and Mandelker (1972),
+002789,DAY AND NIGHT WATER HEATER,1955,Lev and Mandelker (1972),
+002789,PAYNE FURNACE AND SUPPLY,1955,Lev and Mandelker (1972),
+004327,SAVAGE ARMS,1963,Lev and Mandelker (1972),
+005492,INTERTYPE,1957,Lev and Mandelker (1972),
+007648,COMPUTER RESEARCH,1953,General Research,
+003334,COMPUTER RESEARCH,1973,General Research,
+009316,MARCHANT CALCULATING MACHINE,1958,Lev and Mandelker (1972),
+009316,BRITISH TYPEWRITERS,1958,Lev and Mandelker (1972),
+009036,MASTER ELECTRIC,1957,Lev and Mandelker (1972),
+009036,TOLEDO SCALE,1967,General Research,
+009036,DODGE MANUFACTURING,1967,General Research,
+010519,HOMELITE,1955,Lev and Mandelker (1972),
+007585,LEARCAL,1959,Lev and Mandelker (1972),
+007585,DAHLBERG,1959,Lev and Mandelker (1972),
+003712,DAHLBERG,1984,Lev and Mandelker (1972),
+001517,HUDSON MOTOR CAR,1954,Lev and Mandelker (1972),
+007967,STERLING TRUCKS,1951,General Research,
+007967,AUTOCAR,1953,Lev and Mandelker (1972),
+007967,REO MOTOR CAR,1957,General Research,
+007967,DIAMOND T,1958,General Research,
+004154,RAY-O-VAC,1957,Lev and Mandelker (1972),
+004600,BEARINGS COMPANY OF AMERICA,1953,General Research,
+004600,BOWER ROLLER BEARING,1955,Lev and Mandelker (1972),
+005046,LIQUID CARBONIC,1957,Lev and Mandelker (1972),
+007373,INDUSTRIAL RAYON,1961,Lev and Mandelker (1972),
+001803,GOLDWATERS,1953,Lev and Mandelker (1972),
+005109,JOHNSTON AND MURPHY,1951,General Research,
+002367,MID-CONTINENT AIRLINES,1952,General Research,
+001683,KANOTEX REFINING,1953,General Research,
+002102,D L CLARK,1955,General Research,
+005046,STROMBERG-CARLSON,1955,General Research,
+005382,WARREN PETROLEUM,1953,General Research,
+007162,THOMAS A EDISON,1957,General Research,Merger or Acquisition
+009126,MILTON ANTISEPTIC,1958,General Research,
+006266,CILAG,1959,General Research,
+006266,MCNEIL LABORATORIES,1959,General Research,
+011038,PURE OIL,1965,General Research,
+010156,SUNRAY DX OIL,1968,General Research,
+007077,AMERICAN MARIETTA,1961,General Research,
+010120,STUDEBAKER,1967,General Research,
+007739,ALLENTOWN PORTLAND CEMENT,1960,General Research,
+010519,BELL TEXTRON,1960,General Research,
+010519,BELL AEROSPACE,1960,General Research,
+003015,CHRIS-CRAFT BOATS,1960,General Research,
+002255,DEWALT,1960,General Research,
+002255,DEWALT INDUSTRIAL TOOL,1960,General Research,
+009203,PORTER-CABLE,1960,General Research,
+008463,PORTER-CABLE,1981,General Research,
+008463,DELTA MACHINERY,1981,General Research,
+008479,FRITO,1965,General Research,
+008479,H W LAY,1965,General Research,
+008479,FRITO-LAY,1965,General Research,
+006266,JANSSEN PHARMACEUTICALS,1961,General Research,
+006628,LEAR AVIONICS,1961,General Research,
+002663,PEPPERIDGE FARM,1961,General Research,
+008762,FOLGERS,1963,General Research,
+004073,MANNING MAXWELL AND MOORE,1964,General Research,
+009225,ORKIN,1964,General Research,
+005959,PROTO TOOLS,1964,General Research,
+010016,PROTO TOOLS,1984,General Research,
+010016,STANLEY PROTO INDUSTRIAL TOOLS,1984,General Research,
+003024,READ AND CAMPBELL,1964,General Research,
+003024,CHUBB FIRE SECURITY,1971,General Research,
+008488,BOLLER AND CHIVENS,1965,General Research,
+010519,BOSTITCH,1966,General Research,
+010016,BOSTITCH,1986,General Research,
+010016,STANLEY BOSTITCH,1986,General Research,
+005693,COMPUTER CONTROL,1966,General Research,
+005378,NEW JERSEY ZINC,1966,General Research,
+004940,SAWYERS,1966,General Research,
+005071,KENNER PRODUCTS,1967,General Research,
+005071,PARKER BROTHERS,1968,General Research,
+011806,KENNER PRODUCTS,1982,General Research,
+011806,PARKER BROTHERS,1982,General Research,
+001478,LUCKS,1967,General Research,
+002403,MEAD JOHNSON,1967,General Research,
+009203,ROCKETDYNE,1967,General Research,
+010405,WAH CHANG,1967,General Research,
+009165,HILLS PET NUTRITION,1968,General Research,
+007413,PLAYSKOOL,1968,General Research,
+002812,STANDARD FRUIT,1968,General Research,
+002812,STANDARD FRUIT AND STEAMSHIP,1968,General Research,
+003091,MELROE MANUFACTURING,1969,General Research,
+011636,DIABLO SYSTEMS,1972,General Research,
+011636,DIABLO DATA SYSTEMS,1972,General Research,
+002176,SEES CANDIES,1972,General Research,
+009653,BELRIDGE OIL,1979,General Research,
+010787,GRINNELL MECHANICAL PRODUCTS,1976,General Research,
+008499,MICRO INSTRUMENTATION AND TELEMETRY SYSTEMS,1977,General Research,
+011636,SHURGART ASSOCIATES,1977,General Research,
+003748,DURACELL,1978,General Research,
+005535,IMLAC CORPORATION,1979,General Research,
+008889,BANQUET FOODS,1970,General Research,
+003362,BANQUET FOODS,1980,General Research,
+007435,COMTAL CORP,1980,General Research,
+008253,FODEN TRUCKS,1980,General Research,
+009104,INSTITUT JEANNE GATINEAU,1980,General Research,
+002950,LOVE COSMETICS,1980,General Research,
+010016,MAC TOOLS,1980,General Research,
+002082,NYTRONICS INC,1980,General Research,
+006856,OHIO SCIENTIFIC,1980,General Research,
+003243,DINERS CLUB INTERNATIONAL,1981,General Research,
+177376,DINERS CLUB INTERNATIONAL,2008,General Research,
+017828,FREIGHTLINER INTERNATIONAL,1981,General Research,
+010984,ISACOMM,1981,General Research,
+005946,PROFESSIONAL SOFTWARE SYSTEMS INC,1981,General Research,
+004321,WESTERN FORGE,1981,General Research,
+000000,WESTERN FORGE,2007,General Research,
+004132,COLORGRAPHICS WEATHER SYSTEMS,1982,General Research,
+000000,COLORGRAPHICS WEATHER SYSTEMS,1994,General Research,
+004132,CROMEMCO,1987,General Research,
+006512,CYBERNET,1982,General Research,
+009818,MUSIC CENTER INC,1982,General Research,
+008150,BUFFALO CHINA,1983,General Research,
+013371,GNAT COMPUTERS,1983,General Research,
+005480,INFINITY SYSTEMS,1983,General Research,
+006512,YASHICA,1983,General Research,
+007146,SCHWARTZ,1984,General Research,
+014620,ZANUSSI,1984,General Research,
+010609,CELLAS,1985,General Research,
+007875,AMERICAN TOOL COMPANIES,2002,General Research,
+007875,IRWIN INDUSTRIAL TOOLS,2002,General Research,
+007875,IRWIN TOOLS,2002,General Research,
+010016,AMERICAN TOOL COMPANIES,2016,General Research,
+010016,IRWIN INDUSTRIAL TOOLS,2016,General Research,
+010016,IRWIN TOOLS,2016,General Research,
+001908,LYCOMING ENGINES,1929,General Research,
+010422,MICROOFFICE SYSTEMS TECHNOLOGY,1985,General Research,
+003543,ONYX SYSTEMS,1985,General Research,
+008762,PANTENE,1985,General Research,
+024463,SHASTA,1985,General Research,
+024463,SHASTA BEVERAGES,1985,General Research,
+006502,TURKEY HILL,1985,General Research,
+000000,TURKEY HILL,2019,General Research,
+011620,AMDEK CORPORATION,1986,General Research,
+006765,NEW BRITAIN MACHINE COMPANY,1972,General Research,
+006765,BLACKHAWK TOOLS,1972,General Research,
+010016,BLACKHAWK TOOLS,1986,General Research,
+028701,EVERREADY BATTERY COMPANY,1986,General Research,
+133367,EVERREADY BATTERY COMPANY,1998,General Research,
+005073,FRIGIDAIRE APPLIANCE COMPANY,1919,General Research,
+011466,FRIGIDAIRE APPLIANCE COMPANY,1979,General Research,
+006948,GLEN GLENN SOUND,1986,General Research,
+010519,GREENLEE,1986,General Research,
+010519,FAIRMONT HYDRAULICS,1992,General Research,
+010519,KLAUKE,1996,General Research,
+010519,PALADIN TOOLS,2007,General Research,
+010519,UTILUX,2008,General Research,
+010519,SHERMAN REILLY,2013,General Research,
+010519,HD ELECTRIC,2013,General Research,
+004321,GREENLEE,2018,General Research,
+004321,FAIRMONT HYDRAULICS,2018,General Research,
+004321,KLAUKE,2018,General Research,
+004321,PALADIN TOOLS,2018,General Research,
+004321,UTILUX,2018,General Research,
+004321,SHERMAN REILLY,2018,General Research,
+004321,HD ELECTRIC,2018,General Research,
+002272,JANSPORT,1967,General Research,
+011465,KITCHENAID,1986,General Research,
+006266,LIFESCAN,1986,General Research,
+000000,LIFESCAN,2018,General Research,
+011511,POTTERY BARN,1986,General Research,
+003735,QUALITROL,1986,General Research,
+026590,QUALITROL,2016,General Research,
+011466,WHITE-WESTINGHOUSE,1975,General Research,
+007875,AMEROCK,1987,General Research,
+160225,CIRRUS SYSTEMS LLC,1987,General Research,
+100609,GENERAL TIRE,1987,General Research,
+007906,COLE HAAN,1988,General Research,
+000000,COLE HAAN,2012,General Research,
+036202,COLE HAAN,2017,General Research,
+004021,DOME PETROLEUM,1950,General Research,
+001609,DOME PETROLEUM,1988,General Research,
+003362,LAMB WESTON,1988,General Research,
+028790,LAMB WESTON,2012,General Research,
+016603,ROWNTREE MACKINTOSH CONFECTIONERY,1988,General Research,
+009343,SIEGEL AND GALE,1988,General Research,
+000000,SIEGEL AND GALE,1998,General Research,
+004066,SIEGEL AND GALE,2003,General Research,
+011612,WURLITZER,1990,General Research,
+011465,BAUKNECHT,1989,General Research,
+011465,BAUKNECHT HAUSGERATE GMBH,1989,General Research,
+008762,COVERGIRL,1989,General Research,
+012151,COVERGIRL,2016,General Research,
+013148,CUISINART,1989,General Research,
+008022,COVERGIRL,1962,General Research,
+001308,ADVANCE RUMELY CO,1931,General Research,
+002973,ANNETTES PERFECT CLEANSER CO,1932,General Research,
+009548,MIDWEST GRAIN PRODUCTS OF INDIANA,1933,General Research,
+003532,MACBETH EVANS GLASS CO,1936,General Research,
+009064,TRUSSED CONCRETE STEEL CO,1937,General Research,
+010860,UNION COLLIERY CO,1937,General Research,
+004940,ANSCO,1939,General Research,
+010846,PEPSODENT,1944,General Research,
+011436,BF STURTEVANT,1945,General Research,
+009204,DELTA MACHINERY,1945,General Research,
+009204,DELTA SPECIALTY,1945,General Research,
+010519,NASHUA MANUFACTURING CO,1945,General Research,
+010066,FAIRCHILD BROTHERS AND FOSTER,1946,General Research,
+007585,DETROLA RADIO AND TELEVISION CO,1948,General Research,
+014894,MANNESMANN,1999,General Research,
+003226,AT&T BROADBAND,2001,General Research,
+014261,THE BEECHMAN GROUP,1989,General Research,
+241637,INBEV,2005,General Research,
+241637,INTERBREW,2005,General Research,
+065248,ARCELOR,2006,General Research,
+003226,NBCUNIVERSAL,2009,General Research,
+005047,NBCUNIVERSAL,2004,General Research,
+034636,NEWS CORP,2013,General Research,
+170617,WHATSAPP INC,2014,General Research,
+063987,WEATHER INVESTMENTS,2010,General Research,
+006266,SYNTHES,2011,General Research,
+028877,KEURIG INC,2006,General Research,
+241637,GRUPO MODELO,2012,General Research,
+001581,BELL TELEPHONE LAB,1926,General Research,
+062599,BELL TELEPHONE LAB,1996,General Research,
+023671,BELL TELEPHONE LAB,2016,General Research,
+004839,PHILCO,1961,General Research,
+004839,SPACE SYSTEMS/LORAL,1961,General Research,
+006807,SPACE SYSTEMS/LORAL,1990,General Research,
+000000,SPACE SYSTEMS/LORAL,2012,General Research,
+137609,SPACE SYSTEMS/LORAL,2017,General Research,
+004013,OLIVETTI,1982,General Research,
+010160,JOHN OSTER MFG,1960,General Research,
+004839,JAGUAR LAND ROVER,2000,General Research,
+203890,JAGUAR LAND ROVER,2008,General Research,
+110533,DANFOSS,2000,General Research,
+010787,TYCO HEALTHCARE GROUP,1963,General Research,
+177264,TYCO HEALTHCARE GROUP,2005,General Research,
+005073,DELCO ELECTRONICS,1918,General Research,
+012206,DELCO ELECTRONICS,1985,General Research,
+004961,GTE SYLVANIA,1959,General Research,
+010857,EVEREADY BATTERY COMPANY,1957,General Research,
+008935,EVEREADY BATTERY COMPANY,1986,General Research,
+133367,EVEREADY BATTERY COMPANY,2000,General Research,
+010120,WAGNER ELECTRIC PRODUCTS,1967,General Research,
+001581,GTE AUTOMATIC ELECTRIC,1955,General Research,
+062599,GTE AUTOMATIC ELECTRIC,1996,General Research,
+023671,GTE AUTOMATIC ELECTRIC,2016,General Research,
+001098,CLEVELAND TWIST DRILL CO,1968,General Research,Previous Name
+015495,CIMFLEX CORP,1988,General Research,Merger or Acquisition
+016456,JE HANGER,1989,General Research,Merger or Acquisition
+010983,UNITED TECHNOLOGIES AUTOMOTIVE,1950,General Research,Subsidiary
+016477,UNITED TECHNOLOGIES AUTOMOTIVE,1999,General Research,Merger or Acquisition
+018636,GUINNESS PLC,1997,General Research,Merger or Acquisition
+036949,KIQ LLC,2020,General Research,Merger or Acquisition
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
