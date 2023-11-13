@@ -3,7 +3,7 @@
 ___
 
 This repository contains two datasets mapping publicly listed firms from Compustat to patents from the U.S. Patents and Trademark Office, from 1950 to 2020. 
-Anyone is very welcome to use the data, provided that appropriate credit is given by citing *[Dyèvre, A.]([url](http://arnauddyevre.com)) & Seager, O. (2023) **70 Years of Patents Matched to Compustat Firms: Methodology and Insights About Firm Heterogeneity**, STICERD*.
+Anyone is very welcome to use the data, provided that appropriate credit is given by citing *[Dyèvre, A.]([url](http://arnauddyevre.com)) & Seager, O. (2023) **70 Years of Patents Matched to Compustat Firms: Methodology and Insights About Firm Heterogeneity**,*.
 
 ### Structure
 
@@ -21,6 +21,6 @@ The repository is organised as follows:
 ### Licence and attribution
 
 The datasets in "data" are made available under the Creative Commons Attribution 4.0 International (CC-BY-4.0) license. If you use this dataset, please cite the working paper as follows:
-Dyèvre, A. & Seager, O. **Matching Patents to Publicly Listed Firms in the US: 1950-2020**, working paper
+Dyèvre, A. & Seager, O. **70 Years of Patents Matched to Compustat Firms: Methodology and Insights About Firm Heterogeneity**, working paper
 
 [![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
